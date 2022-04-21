@@ -13,6 +13,10 @@
 		BD6BAC23280F3A8800946CDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD6BAC22280F3A8800946CDF /* Assets.xcassets */; };
 		BD6BAC26280F3A8800946CDF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD6BAC25280F3A8800946CDF /* Preview Assets.xcassets */; };
 		BD6BAC29280F3A8800946CDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD6BAC27280F3A8800946CDF /* LaunchScreen.storyboard */; };
+		BD6BAC332811D89E00946CDF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6BAC322811D89E00946CDF /* NetworkManager.swift */; };
+		BD6BAC372811DB0F00946CDF /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6BAC362811DB0F00946CDF /* PostData.swift */; };
+		BD6BAC3D2811E1AB00946CDF /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6BAC3C2811E1AB00946CDF /* DetailView.swift */; };
+		BD6BAC402811EAD700946CDF /* WebViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6BAC3F2811EAD700946CDF /* WebViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		BD6BAC25280F3A8800946CDF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BD6BAC28280F3A8800946CDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD6BAC2A280F3A8800946CDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD6BAC322811D89E00946CDF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		BD6BAC362811DB0F00946CDF /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		BD6BAC3C2811E1AB00946CDF /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		BD6BAC3F2811EAD700946CDF /* WebViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +66,8 @@
 			children = (
 				BD6BAC1C280F3A8700946CDF /* AppDelegate.swift */,
 				BD6BAC1E280F3A8700946CDF /* SceneDelegate.swift */,
-				BD6BAC20280F3A8700946CDF /* ContentView.swift */,
+				BD6BAC3A2811E18000946CDF /* Views */,
+				BD6BAC312811D88400946CDF /* Models */,
 				BD6BAC22280F3A8800946CDF /* Assets.xcassets */,
 				BD6BAC27280F3A8800946CDF /* LaunchScreen.storyboard */,
 				BD6BAC2A280F3A8800946CDF /* Info.plist */,
@@ -73,6 +82,25 @@
 				BD6BAC25280F3A8800946CDF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD6BAC312811D88400946CDF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BD6BAC322811D89E00946CDF /* NetworkManager.swift */,
+				BD6BAC362811DB0F00946CDF /* PostData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BD6BAC3A2811E18000946CDF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BD6BAC20280F3A8700946CDF /* ContentView.swift */,
+				BD6BAC3C2811E1AB00946CDF /* DetailView.swift */,
+				BD6BAC3F2811EAD700946CDF /* WebViews.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +173,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD6BAC402811EAD700946CDF /* WebViews.swift in Sources */,
+				BD6BAC372811DB0F00946CDF /* PostData.swift in Sources */,
+				BD6BAC3D2811E1AB00946CDF /* DetailView.swift in Sources */,
+				BD6BAC332811D89E00946CDF /* NetworkManager.swift in Sources */,
 				BD6BAC1D280F3A8700946CDF /* AppDelegate.swift in Sources */,
 				BD6BAC1F280F3A8700946CDF /* SceneDelegate.swift in Sources */,
 				BD6BAC21280F3A8700946CDF /* ContentView.swift in Sources */,
